@@ -7,29 +7,33 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getPhrase",
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getLastPerson",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_maPhrase",
-						"type": "string"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "setPhrase",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -60,10 +64,10 @@
 	},
 	"sources": {
 		"contracts/test2.sol": {
-			"keccak256": "0x0bad708e76c4250ddf15dd8372159b414a970739b0f0aa6152dfd2e4e6295d85",
+			"keccak256": "0x1fd0139e62cbc77df98694c8d7cc398d2894322580ef158f15aba62d2e30f93d",
 			"urls": [
-				"bzz-raw://7db1e1ebf432df1ea86cfb64ad9127f073356f79fc856448fc5a6f34e4515a00",
-				"dweb:/ipfs/QmYywpTTu525jq1YkQhQQPzgAKYhCFMvd13JwXks4BS4Q1"
+				"bzz-raw://12ae3d5d7a04b438907c38e5a7f187945a65b563bad9a4f8b5dd0344c9f93c83",
+				"dweb:/ipfs/QmXcmFfAe1XXQpcNz5LtLUjZ4SnTHXGA3F93meErebWjo3"
 			]
 		}
 	},

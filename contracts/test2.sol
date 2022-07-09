@@ -2,13 +2,20 @@ pragma solidity 0.8.7;
 
 contract test2 { 
 
-    string maPhrase;
+    address lastPerson; 
+    uint balance; 
 
-    function getPhrase() public view returns(string memory) { 
-        return maPhrase;
+    function getLastPerson() public view returns(address) { 
+        return lastPerson;
     }
 
-    function setPhrase(string memory _maPhrase) public { 
-        maPhrase = _maPhrase;
+    function getBalance() public view returns (uint) { 
+        return balance;
     }
+
+    receive() external payable { 
+        lastPerson = msg.sender;
+        balance = balance + msg.value;
+    }
+
 }
