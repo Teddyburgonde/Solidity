@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPhrase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_maPhrase",
+						"type": "string"
+					}
+				],
+				"name": "setPhrase",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test2.sol": "test2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test2.sol": {
+			"keccak256": "0x0bad708e76c4250ddf15dd8372159b414a970739b0f0aa6152dfd2e4e6295d85",
+			"urls": [
+				"bzz-raw://7db1e1ebf432df1ea86cfb64ad9127f073356f79fc856448fc5a6f34e4515a00",
+				"dweb:/ipfs/QmYywpTTu525jq1YkQhQQPzgAKYhCFMvd13JwXks4BS4Q1"
+			]
+		}
+	},
+	"version": 1
+}
