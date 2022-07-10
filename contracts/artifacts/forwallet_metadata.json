@@ -62,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/test2.sol": "test2"
+			"contracts/forwallet.sol": "forwallet"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -76,11 +76,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/test2.sol": {
-			"keccak256": "0x0421cb8bd74ab80001031e53e380441af6f8207ff5e41bec389dbdd41d39c7d7",
+		"contracts/forwallet.sol": {
+			"keccak256": "0xd31837558cb0c41e19f91db7eb5786cc9efe7a597b8ab948729b36ef20847f99",
 			"urls": [
-				"bzz-raw://5b43e00944c254d5a2a613da95e8c8f931c4e8c74a9bfa1ba05bfc4dfb51cf0d",
-				"dweb:/ipfs/QmeEL2rNS4DT4mn6RKsavwb8t4aGvMJSAihxvUDE5i3P5T"
+				"bzz-raw://9bb5bad30aa766208306e00cf56536de17dcb0be006e21c46e2dad55ba0c177d",
+				"dweb:/ipfs/QmRVwX7ZbAv5Fho3S7Ui7XKj17nTKmMVZJcM3DYaFYNEGv"
 			]
 		}
 	},

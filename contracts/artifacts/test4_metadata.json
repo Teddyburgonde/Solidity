@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getTotalBalance",
+				"name": "getNumPayments",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -29,19 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					}
-				],
-				"name": "withdrawAllMoney",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -62,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/test2.sol": "test2"
+			"contracts/test4.sol": "test4"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -76,11 +63,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/test2.sol": {
-			"keccak256": "0x0421cb8bd74ab80001031e53e380441af6f8207ff5e41bec389dbdd41d39c7d7",
+		"contracts/test4.sol": {
+			"keccak256": "0x95d7bc3b16fc3be2a08046ba34e8ddece8babc27bd2c91a0c842367f9a4d394d",
 			"urls": [
-				"bzz-raw://5b43e00944c254d5a2a613da95e8c8f931c4e8c74a9bfa1ba05bfc4dfb51cf0d",
-				"dweb:/ipfs/QmeEL2rNS4DT4mn6RKsavwb8t4aGvMJSAihxvUDE5i3P5T"
+				"bzz-raw://4d9cdb64a760bf25575098582b41446c224ac3e07017d21008740b2488f75956",
+				"dweb:/ipfs/QmfJo4bi9kZ4L7NxVm7MfhfBTDf2wEwTAwBDkUMyaATTHQ"
 			]
 		}
 	},

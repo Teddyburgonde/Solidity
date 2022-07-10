@@ -1,6 +1,6 @@
 pragma solidity 0.8.7;
 
-contract test4 { 
+contract envoyerether { 
 
     struct balance { 
         uint money;
