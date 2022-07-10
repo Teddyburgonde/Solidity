@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_client",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_SKU",
+						"type": "uint256"
+					}
+				],
+				"name": "commander",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_client",
+						"type": "address"
+					}
+				],
+				"name": "expedier",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_client",
+						"type": "address"
+					}
+				],
+				"name": "getEtape",
+				"outputs": [
+					{
+						"internalType": "enum gestionproduit.etape",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_client",
+						"type": "address"
+					}
+				],
+				"name": "getSKU",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gestionproduit.sol": "gestionproduit"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gestionproduit.sol": {
+			"keccak256": "0xeb0bded57038bfb97fd21dc98ba2e83edbdc681b69a9aca362ec360b0008dfb5",
+			"urls": [
+				"bzz-raw://3f791718ac4aa97ec98eece4edf0c978a80e01fbeacef0a5e849a929f671037b",
+				"dweb:/ipfs/QmXrv1wVrosPkayjvqt6yfV21GskmHQmntoRHRLfkQhQqE"
+			]
+		}
+	},
+	"version": 1
+}

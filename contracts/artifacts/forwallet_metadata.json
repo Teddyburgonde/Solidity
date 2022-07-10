@@ -77,10 +77,10 @@
 	},
 	"sources": {
 		"contracts/forwallet.sol": {
-			"keccak256": "0xd31837558cb0c41e19f91db7eb5786cc9efe7a597b8ab948729b36ef20847f99",
+			"keccak256": "0x420d7ef9dd9928ab8ac5e0a5996158ee5ea9d7c7cf95562bebe58c1d3d17caff",
 			"urls": [
-				"bzz-raw://9bb5bad30aa766208306e00cf56536de17dcb0be006e21c46e2dad55ba0c177d",
-				"dweb:/ipfs/QmRVwX7ZbAv5Fho3S7Ui7XKj17nTKmMVZJcM3DYaFYNEGv"
+				"bzz-raw://1b8fb286b793d624c3e36fb70f9a04e11ad439ce3b60044861914deab720a7e3",
+				"dweb:/ipfs/QmQwAsWye6nS7iFWLtnsVF7n9RwVDWGukc2iULfrFP5Ni7"
 			]
 		}
 	},
