@@ -7,20 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getTotalBalance",
+				"name": "getNombre",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -34,19 +21,15 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_nombre",
+						"type": "uint256"
 					}
 				],
-				"name": "withdrawAllMoney",
+				"name": "setNombre",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -62,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/For_wallet.sol": "forwallet"
+			"contracts/Structure_de_controle.sol": "structuredecontrole"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -76,11 +59,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/For_wallet.sol": {
-			"keccak256": "0x420d7ef9dd9928ab8ac5e0a5996158ee5ea9d7c7cf95562bebe58c1d3d17caff",
+		"contracts/Structure_de_controle.sol": {
+			"keccak256": "0x036fa3dd71598e4370d98cbfb107d359756980395187bd7ec3d08c90a197d849",
 			"urls": [
-				"bzz-raw://1b8fb286b793d624c3e36fb70f9a04e11ad439ce3b60044861914deab720a7e3",
-				"dweb:/ipfs/QmQwAsWye6nS7iFWLtnsVF7n9RwVDWGukc2iULfrFP5Ni7"
+				"bzz-raw://57e04801889652cf8b9165a53d29437fb851d2559464b8351cef17c5ac9f343f",
+				"dweb:/ipfs/QmaqVhm2M3rNvRyBafgFFi9kT53MwnhGTTqTv1DXtrisRw"
 			]
 		}
 	},

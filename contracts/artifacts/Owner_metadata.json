@@ -7,20 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getTotalBalance",
+				"name": "getNombre",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -34,19 +39,28 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_nombre",
+						"type": "uint256"
 					}
 				],
-				"name": "withdrawAllMoney",
+				"name": "setNombre",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_paused",
+						"type": "bool"
+					}
+				],
+				"name": "setPaused",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -62,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/For_wallet.sol": "forwallet"
+			"contracts/Owner.sol": "Owner"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -76,11 +90,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/For_wallet.sol": {
-			"keccak256": "0x420d7ef9dd9928ab8ac5e0a5996158ee5ea9d7c7cf95562bebe58c1d3d17caff",
+		"contracts/Owner.sol": {
+			"keccak256": "0x5fcb148c96dc59009ef4cb4cde10cbe20f7a3aa2f1d9a81eb8648578899fb96e",
 			"urls": [
-				"bzz-raw://1b8fb286b793d624c3e36fb70f9a04e11ad439ce3b60044861914deab720a7e3",
-				"dweb:/ipfs/QmQwAsWye6nS7iFWLtnsVF7n9RwVDWGukc2iULfrFP5Ni7"
+				"bzz-raw://9834b6b7203f0fe3c2ef0fc70a4cd333eb73b9772ea097cf4ab3a9bef613b49c",
+				"dweb:/ipfs/QmYrjTeYfDQqi5gB68CVV4XjHXc7EnpagW1BhyVu59FUKx"
 			]
 		}
 	},
